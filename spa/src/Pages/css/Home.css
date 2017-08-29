@@ -1,0 +1,117 @@
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  outline: none;
+}
+.Home-header {
+  background-color: slateblue;
+  padding: 15px;
+  color: unset;
+  font-family: fantasy;
+  text-align: center;
+  font-size: xx-large;
+  display: -webkit-box;
+}
+.Home-header-nav {
+  color: blue;
+}
+.Home-footer {
+  background-color: midnightblue;
+  color: white;
+  padding: 10px;
+}
+.Body {
+  background-color: white;
+  display: inline-flex;
+  width: -webkit-fill-available;
+}
+.Body-User-Info {
+  background-color: seashell;
+  width: 35%;
+  padding: 25px;
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+.Body-User-Info-Item {
+  background-color: white;
+  margin-top: 13px;
+  padding: 10px;
+}
+.Body-User-label {
+  color: teal;
+  font-family: cursive;
+  font-size: x-large;
+}
+
+.Body-User-value {
+  color: black;
+  margin-left: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.Body-User-Post {
+  background-color: wheat;
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 50%;
+  padding: 20px;
+  height: 347px;
+  overflow-y: scroll;
+}
+.Home-header-nav {
+  color: thistle;
+  margin-left: 70%;
+  font-size: large;
+  position: absolute;
+  top: 40px;
+  font-family: sans-serif;
+}
+.Home-Link {
+  padding: 9px;
+  text-decoration: none;
+}
+.Body-User-Post {
+  background-color: white;
+}
+.Body-User-Post-Card {
+  padding: 10px;
+}
+.Body-User-Post-Value {
+  background-color: whitesmoke;
+  padding: 15px;
+  font-family: monospace;
+  color: teal;
+  border-radius: 5px;
+  transition: background-color 1s, color 1s;
+}
+
+.Body-User-Post-Value:hover {
+  background-color: #77c6c4;
+  color: #0e6d6d;
+}
+
+.Body-User-Post-Label {
+  color: steelblue;
+  font-weight: 600;
+}
+.Body-User-Post-Name {
+  width: 250px;
+  margin-bottom: 10px;
+  border: solid 2px #f7f2cb;
+  border-radius: 5px;
+  height: 25px;
+  background-color: #f7f2cb;
+  color: seagreen;
+  padding-left: 10px;
+}
+.Body-User-Post-Post {
+  background-color: #f7f2cb;
+  padding: 5px;
+  color: seagreen;
+  width: -webkit-fill-available;
+  height: 70px;
+  border: solid 2px #f7f2cb;
+  border-radius: 5px;
+}
