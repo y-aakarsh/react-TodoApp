@@ -14,6 +14,7 @@ export default class UserInfo extends React.Component {
         <div className="Body-User-value">
           {Object.values(data)}
         </div>
+<br />
       </div>
     );
   }
